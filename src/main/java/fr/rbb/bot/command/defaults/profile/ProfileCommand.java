@@ -66,7 +66,7 @@ public final class ProfileCommand implements CommandBuilder {
     final List<MessageTopLevelComponent> components =
         List.of(
             Container.of(
-                TextDisplay.of("###  <:collectif:1539078089252798576> I VOTRE PROFIL"),
+                TextDisplay.of("###  <:recapitulatif:1539076029669183560> I VOTRE PROFIL"),
                 TextDisplay.of(
                     ProfileMessage.BODY.formatMessage(
                         new Placeholder("ranking", stats.ranking()),
