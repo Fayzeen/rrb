@@ -6,9 +6,9 @@ package fr.rbb.bot;
 public final class Main {
 
   public static void main(final String[] args) throws InterruptedException {
-    final var token = System.getenv("ENV");
+    final var token = System.getenv("DISCORD_TOKEN");
     if (token == null || token.isEmpty()) {
-      throw new IllegalStateException("ENV environment variable is not set.");
+      throw new IllegalStateException("DISCORD_TOKEN environment variable is not set.");
     }
 
     new Bot(token);
