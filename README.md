@@ -50,32 +50,27 @@ src/main/java/fr/rbb/bot/
 ## Setup
 
 1. Clone the repository.
-2. Set the `DISCORD_TOKEN` environment variable to your bot's token:
-
-   ```bash
+2. Set the required environment variables:
+```bash
    export DISCORD_TOKEN=your-bot-token-here
-   ```
-
-3. Update the guild IDs in `Constant.java` if you're deploying to different Discord servers:
-
-   ```java
-   public static final long SERVER_GUILD_ID = ...;
-   public static final long DEBUG_GUILD_ID = ...;
-   ```
-
-4. Run the bot:
-
-   ```bash
+   export SERVER_GUILD_ID=your-server-guild-id
+   export DEBUG_GUILD_ID=1your-debug-server-guild-id
+```
+   All three are read at startup; a missing or non-numeric value fails fast with an explicit error.
+3. Run the bot:
+```bash
    ./gradlew run
-   ```
+```
 
 On startup, the bot connects to Discord, opens (or creates) the local `bot.db` SQLite database, and registers its slash commands on the configured guilds.
 
 ## Configuration
 
-| Variable        | Description                          | Required |
-|-----------------|---------------------------------------|----------|
-| `DISCORD_TOKEN`  | The bot's Discord authentication token | Yes      |
+| Variable           | Description                            | Required |
+|--------------------|----------------------------------------|----------|
+| `DISCORD_TOKEN`    | The bot's Discord authentication token | Yes      |
+| `SERVER_GUILD_ID`  | Guild ID of the production server      | Yes      |
+| `DEBUG_GUILD_ID`   | Guild ID of the test server            | Yes      |
 
 ## Author
 
