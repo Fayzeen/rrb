@@ -5,7 +5,7 @@ A Discord bot for the **Collectif** community, built to run random-role "predict
 ## Features
 
 - **`/prediction`** — Launches a random role prediction for a chosen game mode. Each game mode (All Stars UHC, Black Clover UHC, Manhwa UHC, One Piece UHC, Naruto UHC) has its own set of roles, emoji, and accent color.
-- **`/profil`** — Lets a user view their personal profile: overall ranking, most-drawn role, and number of times that role has been drawn, rendered as a Discord Components V2 message.
+- **`/profile`** — Lets a user view their personal profile: overall ranking, most-drawn role, and number of times that role has been drawn, rendered as a Discord Components V2 message.
 - **Persistent drop tracking** — Every role drawn is recorded in a local SQLite database (`bot.db`) so rankings and stats persist across restarts.
 - **Slash command framework** — Commands are registered per guild using [Cloud Command Framework](https://github.com/Incendo/cloud) with the JDA6 integration.
 
