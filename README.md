@@ -28,7 +28,7 @@ src/main/java/fr/rrb/bot/
 │   ├── CommandBuilder.java       # Interface implemented by every slash command
 │   └── defaults/
 │       ├── prediction/           # /prediction command, game modes, per-mode roles
-│       └── profile/               # /profil command
+│       └── profile/               # /profile command
 ├── database/
 │   └── Database.java             # SQLite connection and schema bootstrap
 ├── drop/
