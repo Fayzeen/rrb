@@ -14,7 +14,7 @@ dependencies {
 }
 
 application {
-    mainClass.set("fr.rbb.bot.Main")
+    mainClass.set("fr.rrb.bot.Main")
 }
 
 java {
