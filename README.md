@@ -21,7 +21,7 @@ A Discord bot for the **Collectif** community, built to run random-role "predict
 ## Project Structure
 
 ```
-src/main/java/fr/rbb/bot/
+src/main/java/fr/rrb/bot/
 ├── Main.java                     # Entry point, reads DISCORD_TOKEN and boots the bot
 ├── Bot.java                      # JDA setup, command manager, guild command registration
 ├── command/
