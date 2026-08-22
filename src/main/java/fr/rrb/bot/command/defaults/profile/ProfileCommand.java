@@ -34,7 +34,7 @@ public final class ProfileCommand implements CommandBuilder {
 
     commandManager.command(
         commandManager
-            .commandBuilder("profil", Description.of("Allows you to access your profile."))
+            .commandBuilder("profile", Description.of("Allows you to access your profile."))
             .apply(CommandScope.guilds(DEBUG_GUILD_ID, SERVER_GUILD_ID))
             .handler(this::execute));
   }
