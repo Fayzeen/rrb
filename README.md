@@ -54,7 +54,7 @@ src/main/java/fr/rrb/bot/
 ```bash
    export DISCORD_TOKEN=your-bot-token-here
    export SERVER_GUILD_ID=your-server-guild-id
-   export DEBUG_GUILD_ID=1your-debug-server-guild-id
+   export DEBUG_GUILD_ID=your-debug-server-guild-id
 ```
    All three are read at startup; a missing or non-numeric value fails fast with an explicit error.
 3. Run the bot:
