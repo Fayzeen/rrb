@@ -4,8 +4,8 @@ import fr.rrb.bot.util.Placeholder;
 
 public enum ProfileMessage {
   BODY(
-      "> <:profil:1539076077656481812> » **Classement**: #**{ranking}** des rolls du bot.\n"
-          + "> <:drop:1539075983783628840> » **Le plus drop**: **{role}** (**{dropped} fois**).");
+      "> <:profil:1539076077656481812> » **Ranking**: #**{ranking}** of the bot's rolls.\n"
+          + "> <:drop:1539075983783628840> » **Most dropped**: **{role}** (**{dropped} times**).");
 
   private final String content;
 

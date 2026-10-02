@@ -6,12 +6,12 @@ import org.jetbrains.annotations.NotNull;
 public enum PredictionMessage {
   TITLE("### {game} {emoji}"),
   BODY(
-      "-# **» INFORMATIONS**\n"
-          + "▪ Rôle: **{role}**.\n"
-          + "▪ Condition de Victoire: **{win}**.\n"
-          + "-# **» STATISTIQUES**\n"
-          + "▪ Drop: **{self_drops}**x par vous. (Global: **{total_drops}**)\n"
-          + "▪ Perso: #**{rate}** de vos personnages drops."),
+      "-# **» INFORMATION**\n"
+          + "▪ Role: **{role}**.\n"
+          + "▪ Victory Condition: **{win}**.\n"
+          + "-# **» STATISTICS**\n"
+          + "▪ Drops: **{self_drops}**x for you. (Global: **{total_drops}**)\n"
+          + "▪ Character: #**{rate}** of your character drops."),
   FOOTER("-# Collectif UHC I {date}");
 
   private final String content;
