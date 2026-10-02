@@ -12,7 +12,7 @@ public enum PredictionMessage {
           + "-# **» STATISTICS**\n"
           + "▪ Drops: **{self_drops}**x for you. (Global: **{total_drops}**)\n"
           + "▪ Character: #**{rate}** of your character drops."),
-  FOOTER("-# Collectif UHC I {date}");
+  FOOTER("-# RRB I {date}");
 
   private final String content;
 
